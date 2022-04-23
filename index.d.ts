@@ -1,4 +1,4 @@
-declare module 'redux-persist-filesystem-storage' {
+declare module '@tomgreco/redux-persist-filesystem-storage' {
   interface Options {
     storagePath: string
     encoding: string

@@ -1,6 +1,6 @@
 {
   "name": "@tomgreco/redux-persist-filesystem-storage",
-  "version": "4.0.1",
+  "version": "4.0.3",
   "description": "Redux persist adaptor for React Native filesystem storage",
   "main": "index.js",
   "repository": {
