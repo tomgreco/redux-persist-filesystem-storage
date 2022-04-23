@@ -1,10 +1,10 @@
 {
-  "name": "redux-persist-filesystem-storage",
-  "version": "4.0.0",
+  "name": "@tomgreco/redux-persist-filesystem-storage",
+  "version": "4.0.1",
   "description": "Redux persist adaptor for React Native filesystem storage",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/robwalkerco/redux-persist-filesystem-storage",
+    "url": "https://github.com/tomgreco/redux-persist-filesystem-storage",
     "type": "git"
   },
   "author": "Rob Walker",
@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "flow-bin": "^0.108.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }

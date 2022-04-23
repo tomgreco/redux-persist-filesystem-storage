@@ -12,7 +12,7 @@ This storage can be used on Android to prevent issues with the storage limitatio
 **Please note:** v2 of this library supports React Native 0.60 and above only. If you are using React Native 0.59 and below, please use v1.x.
 
 ```bash
-yarn add redux-persist-filesystem-storage
+yarn add @tomgreco/redux-persist-filesystem-storage
 ```
 
 or, for React Native 0.59 and below:
@@ -29,7 +29,7 @@ Then, as [react-native-blob-util](https://github.com/RonRadtke/react-native-blob
 Simply use 'FilesystemStorage' as the storage option in the redux-persist config.
 
 ```javascript
-import FilesystemStorage from 'redux-persist-filesystem-storage'
+import FilesystemStorage from '@tomgreco/redux-persist-filesystem-storage'
 ...
 
 const persistConfig = {
